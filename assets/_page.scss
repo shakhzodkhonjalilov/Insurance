@@ -1,0 +1,134 @@
+.news {
+  &__img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+    }
+  }
+
+  &__block {
+    display: block;
+    background: #ffffff;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+
+    &:hover {
+      .news__block-title {
+        color: $accent;
+      }
+    }
+
+    &-first {
+      height: 100%;
+
+      .news__block-title {
+        color: $accent;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-title {
+      font-size: 18px;
+    }
+
+    span {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 15px;
+      color: #777777;
+    }
+  }
+}
+
+.about {
+  &__section {
+    padding: 30px 0;
+    background: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  &__license {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.polis {
+  height: 100%;
+
+  &__block {
+    &-title {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .v-btn {
+        display: block;
+      }
+
+      label {
+        width: 150px;
+        margin-right: 10px;
+      }
+
+      .v-text-field {
+        max-width: 80px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+.travel__uz {
+  &-program {
+    .v-input--radio-group__input {
+      flex-direction: row !important;
+    }
+
+    label {
+      display: inline-block;
+      height: 100% !important;
+      background: rgba($accent, .3);
+      padding: 10px;
+      border-radius: 5px;
+      margin-right: 15px;
+      cursor: pointer;
+
+      .v-radio {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.contact {
+  &__info {
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+}
+
+.login {
+  height: 100%;
+}

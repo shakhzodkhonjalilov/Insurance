@@ -1,0 +1,109 @@
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px !important;
+  }
+}
+
+@media screen and (max-width: 1264px) {
+  .title_ {
+    font-size: 32px;
+  }
+
+  .home__top-content h2 {
+    font-size: 32px;
+  }
+  .home__top-content h3 {
+    font-size: 18px;
+  }
+
+  .home__calc-block {
+    padding: 20px 10px;
+    img {
+      width: 45px;
+      margin-right: 10px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  .advantages {
+    &-title {
+      font-size: 24px;
+    }
+    p {
+      font-size: 15px;
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__mobile-btn {
+    display: flex;
+  }
+  .mobile__menu {
+    display: block;
+  }
+
+  .navbar__logo {
+    margin-right: 15px;
+  }
+  .navbar__top.navbar,
+  .header__navbar.navbar {
+    display: none;
+  }
+  .header__top .navbar__lan {
+    padding-left: 0;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title_ {
+    font-size: 24px;
+  }
+  .steps {
+    display: none;
+  }
+  .travel__help {
+    max-width: 100%;
+  }
+  .travel__uz-date {
+    flex-direction: column;
+  }
+  .btn {
+    padding: 8px 20px;
+    line-height: 1.3;
+  }
+  .auto .sub-title_ {
+    max-width: 80%;
+  }
+  .home__calc-block {
+    margin-bottom: 5px;
+    img {
+      width: 60px;
+    }
+  }
+  .cabinet__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__navbar-dtp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .navbar__logo {
+    margin-right: 10px;
+  }
+  .navbar_lan {
+    font-size: 14px;
+  }
+  .header__sing {
+    i {
+      font-size: 18px !important;
+    }
+  }
+}
